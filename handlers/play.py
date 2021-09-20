@@ -119,18 +119,18 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**camila Music assistant joined this group for play music 🎵**")
+                        message.chat.id, "**RICHAXNITIN Music assistant joined this group for play music 🎵**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>🛑 Flood Wait Error 🛑</b> \n\Hey {user.first_name},@camilaowner assistant userbot couldn't join your group due to heavy join requests @camila_support. Make sure userbot is not banned in group and try again later!")
+                        f"<b>🛑 Flood Wait Error 🛑</b> \n\Hey {user.first_name},@NiTiN_X_RiCHA assistant userbot couldn't join your group due to heavy join requests @FRIENDS_FOREVER143. Make sure userbot is not banned in group and try again later!")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, @BESTIES_PLAYER assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>")
+            f"<i>Hey {user.first_name},@NiTiN_X_RiCHA assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -414,12 +414,12 @@ async def ytplay(_, message: Message):
     keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/FUN_GRPCHAT"),
+                    InlineKeyboardButton("⛑ Groups", url=f"https://t.me/FRIENDS_FOREVER143"),
                     InlineKeyboardButton("📍 Channel", url=f"https://t.me/INCREDIBLE_SPAM_BOT"),
                 ],
                 [
                     InlineKeyboardButton("📖 Playlist", callback_data="playlist"),
-                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/SHIVAM9412"),
+                    InlineKeyboardButton("👑 Owner", url=f"https://t.me/LEGEND_NEVER_REALLY_DIES"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
