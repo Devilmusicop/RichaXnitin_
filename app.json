@@ -1,8 +1,8 @@
 {
-  "name": "Camilla Music",
+  "name": " Electro Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/war-legend/camillavcbot2.0",
+  "repository": "https://github.com/devilmusicop/RichaXnitin_",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -16,7 +16,7 @@
     "BOT_NAME": {
       "description": "Your MusicPlayer Bot Name.",
       "required": false,
-      "value": "camilla vc"
+      "value": "Electro vc"
     },
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
